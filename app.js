@@ -1,6 +1,8 @@
 // /*
 // Exercise 1: maxOfTwoNumbers()
 
+// const { useLayoutEffect } = require("react");
+
 // In this exercise, create a function named maxOfTwoNumbers. 
 // It should take two numbers as inputs and return the larger number. 
 // If they're equal, return either one.
@@ -79,12 +81,10 @@ Complete the exercise in the space below:
 */
 
 function generateEmail(name, domain) {
-    const name = johnsmith;
-    const domain = @example.com;
-    return 'name + domain';
+    return `${name}${domain}`;
 }
 
-console.log('Exercise 4 Result:', generateEmail("johnsmith", "example.com"));
+console.log('Exercise 4 Result:', generateEmail("johnsmith", "@example.com"));
 
 
 /*
@@ -165,7 +165,7 @@ Complete the exercise in the space below:
 */
 
 function convertTemperature() {
-
+    useLayoutEffect
 }
 
 // console.log('Exercise 8 Result:', convertTemperature(32, "C"));
@@ -187,11 +187,8 @@ Example: basicCalculator(10, 5, 'subtract') should return 5.
 Complete the exercise in the space below:
 */
 
-// function basicCalculator(numOne, numTwo, operation) {
-//     let numOne = 10;
-//     let numTwo = 5;
-//     let operation = subtract;
-//     return numOne - numTwo;
-// }
+function basicCalculator(numOne, numTwo) {
+    return numOne - numTwo;
+}
 
-// console.log('Exercise 9 Result:', basicCalculator(10, 5, "subtract"));
+console.log('Exercise 9 Result:', basicCalculator(10, 5, "subtract"));
